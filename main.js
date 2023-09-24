@@ -612,8 +612,8 @@ window.addEventListener("keyup", (eve) => {
 window.addEventListener("touchstart", (eve) => {
   eve.preventDefault;
   // For each touch, record it into the this._touches variable for future access. þetta litla kóða búti er gerður af axel
-  for (let i = 0; i < e.changedTouches.length; i++) {
-      touches[e.changedTouches[i].identifier] = e.changedTouches[i];
+  for (let i = 0; i < eve.changedTouches.length; i++) {
+      touches[eve.changedTouches[i].identifier] = eve.changedTouches[i];
   }
   //------------------------------------------------------------------------------------------------------------------------
 });
