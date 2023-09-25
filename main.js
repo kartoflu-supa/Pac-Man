@@ -614,7 +614,7 @@ window.addEventListener("touchstart", (eve) => {
   // For each touch, record it into the this._touches variable for future access. þetta litla kóða búti er gerður af axel
   /*for (let i = 0; i < eve.changedTouches.length; i++) {
       touches[eve.changedTouches[i].identifier] = eve.changedTouches[i];
-  */}
+  }*/
   //------------------------------------------------------------------------------------------------------------------------
 });
 window.addEventListener("touchmove", (eve) => {
